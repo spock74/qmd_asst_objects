@@ -1,0 +1,8 @@
+model,preco_input_1000,preco_output_1000
+gpt-4-1106-preview,0.01,0.03
+gpt-4-1106-vision-preview,0.01,0.03
+gpt-4,0.03,0.06
+gpt-4-32k,0.06,0.12
+gpt-3.5-turbo-1106,0.0010,0.0020
+gpt-3.5-turbo-instruct,0.0015,0.0020
+ada_embedding_v2,,0.0001
