@@ -26,3 +26,8 @@ from models.asst_model import AssistantModel
 from models.user_model import UserModel
 from models.asst_instructions_model import AssistantInstructionsModel
 from models.asst_file_model import AssistanteFileModel
+from models.asst_messages_model import AssistantMessageModel
+from models.asst_threads_model import AssistantThreadModel
+
+
+

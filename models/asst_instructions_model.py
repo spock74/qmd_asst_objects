@@ -9,7 +9,7 @@ from core.configs import settings
 
 
 class AssistantInstructionsModel(settings.DBBaseModel):
-    __tablename__ = 'assistant_instructions'
+    __tablename__ = 'assistants_instructions'
 
 
     id = Column(Integer, primary_key=True, autoincrement=True)

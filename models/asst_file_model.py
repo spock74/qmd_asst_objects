@@ -8,7 +8,7 @@ from core.configs import settings
 
 
 class AssistanteFileModel(settings.DBBaseModel):
-    __tablename__ = "assistant_files"
+    __tablename__ = "assistants_files"
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     custom_uuid = Column(UUID(as_uuid=True), nullable=False)

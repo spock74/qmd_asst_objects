@@ -10,10 +10,9 @@ from core.configs import settings
 class AssistantModel(settings.DBBaseModel):
     __tablename__ = 'assistants'
 
-    id = Column(Integer, primary_key=True, autoincrement=True)
     object = Column(String, nullable=False)
     assistante_name = Column(String, nullable=False, unique=True)
-    assistant_id = Column(String, nullable=False, unique=True, index=True)
+    assistant_id =  Column(String, nullable=False, primary_key=True, unique=True, index=True)
     custom_uuid = Column(UUID(as_uuid=True), nullable=False)
     created_by = Column(UUID(as_uuid=True), ForeignKey('users.user_id'), nullable=False)
     created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
