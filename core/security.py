@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Nome do Arquivo: uso_tokens_schema.py
+Nome do Arquivo: security.py
 Autor: Jose E Moraes
 Empresa proprietária: QMD-QUERO MEUS DIREITOS
 Copyright: 2023
